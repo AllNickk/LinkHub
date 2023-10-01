@@ -17,3 +17,7 @@ The web application that makes organizing and managing your links intuitive and 
 ## Tech Stack
 
 LinkHub uses the latest web technologies. Our base is built with HTML5, which allows us to create a solid structure for the application. CSS3 is used to bring the design to life, making it attractive and responsive on different devices. In addition, JavaScript is the icing on the cake of LinkHub's interactivity and dynamic functionality, ensuring that you can organize and access your links effectively and intuitively.
+
+## Prototype
+
+For an immersive glimpse into the design process behind my projects, explore the interactive prototype on Figma: [LinkHub Prototype](https://www.figma.com/file/S4WUKomit3vaOH0hS2y1Zu/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?type=design&node-id=0-1&mode=design&t=YhE3KBjOMdnj3qQn-0)
