@@ -1,0 +1,37 @@
+body * {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color-dark-mode);
+}
+
+body {
+    /* background: color image repeat position/size */
+    background: url(/home/src/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 36rem;
+    margin: auto;
+    margin-top: 5.6rem;
+}
+
+#profile {
+    text-align: center;
+    margin: auto;
+    padding: 2.4rem;
+}
+
+#profile img {
+    width: 11.2rem;
+}
+
+#customLink {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-top: .8rem;
+    display: block;
+}
