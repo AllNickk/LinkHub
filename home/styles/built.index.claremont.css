@@ -35,3 +35,36 @@ a {
     margin-top: .8rem;
     display: block;
 }
+
+/* Links */
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 0 2.4rem;
+}
+
+ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 2.4rem;
+    background: var(--surface-color-dark-mode);
+    border: 0.1rem solid var(--stroke-color-dark-mode);
+    border-radius: 0.8rem;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+
+    transition: background .5s;
+}
+
+ul li a:hover {
+    background: var(--surface-color-dark-mode-hover);
+    border: 0.15rem solid var(--text-color-dark-mode);
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+}
