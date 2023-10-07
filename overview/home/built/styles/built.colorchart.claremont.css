@@ -10,4 +10,6 @@
 --highlight-color-dark-mode: #ffffff33;
 --highlight-color-light-mode: #0000001a;
 --toggle-handle-color: #FFFFFF;
+--bg-color-dark-mode: url(/home/src/bg-mobile.jpg);
+--bg-color-light-mode: url(/home/src/bg-mobile-light.jpg);
 }
