@@ -12,6 +12,7 @@ body {
     width: 36rem;
     margin: auto;
     margin-top: 5.6rem;
+    padding: 0 2.4rem;
 }
 
 #profile {
@@ -39,7 +40,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
-    padding: 2.4rem;
+    padding: 2.4rem 0;
 }
 
 ul li a {
