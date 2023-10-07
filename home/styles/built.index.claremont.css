@@ -5,7 +5,7 @@ body * {
 
 body {
     /* background: color image repeat position/size */
-    background: url(/home/src/bg-mobile.jpg) no-repeat top center/cover;
+    background: var(--bg-color-dark-mode) no-repeat top center/cover;
 }
 
 #container {
