@@ -58,14 +58,15 @@ ul li a {
     line-height: 2.4rem;
     text-decoration: none;
 
-    transition: background .5s;
+    transition: background .5s, border .5s , scale .5s;
 }
 
 ul li a:hover {
     background: var(--surface-color-dark-mode-hover);
     border: 0.15rem solid var(--text-color-dark-mode);
-    backdrop-filter: blur(0.4rem);
-    -webkit-backdrop-filter: blur(0.4rem);
+    backdrop-filter: blur(0.1rem);
+    -webkit-backdrop-filter: blur(0.1rem);
+    scale: 115%;
 }
 
 /* Social Links */
@@ -74,6 +75,7 @@ ul li a:hover {
     justify-content: center;
     font-size: 2.4rem;
     padding: 2.4rem 0;
+    gap: 1rem;
 }
 
 #socialLinks a {
@@ -81,13 +83,16 @@ ul li a:hover {
     align-items: center;
     justify-content: center;
     padding: 1.6rem;
+    border: 0.15rem solid transparent;
     border-radius: 50%;
     
-    transition: background  .4s ;
+    transition: background .4s, border .4s ,scale .4s;
 }
 
 #socialLinks a:hover {
-    background-color: var(--highlight-color-dark-mode);
+    background: var(--highlight-color-dark-mode);
+    border: 0.15rem solid var(--text-color-dark-mode);
+    scale: 115%;
 }
 
 /* Created by */
