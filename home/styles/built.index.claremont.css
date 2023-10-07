@@ -8,10 +8,6 @@ body {
     background: url(/home/src/bg-mobile.jpg) no-repeat top center/cover;
 }
 
-a {
-    text-decoration: none;
-}
-
 #container {
     width: 36rem;
     margin: auto;
@@ -34,6 +30,7 @@ a {
     line-height: 2.4rem;
     margin-top: .8rem;
     display: block;
+    text-decoration: none;
 }
 
 /* Links */
@@ -58,6 +55,7 @@ ul li a {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.4rem;
+    text-decoration: none;
 
     transition: background .5s;
 }
@@ -89,4 +87,13 @@ ul li a:hover {
 
 #socialLinks a:hover {
     background-color: var(--highlight-color-dark-mode);
+}
+
+/* Created by */
+footer {
+    padding: 2.4rem 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
 }
