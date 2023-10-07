@@ -42,14 +42,14 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
-    padding: 0 2.4rem;
+    padding: 2.4rem;
 }
 
 ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.6rem 2.4rem;
+    padding: 1.6rem;
     background: var(--surface-color-dark-mode);
     border: 0.1rem solid var(--stroke-color-dark-mode);
     border-radius: 0.8rem;
@@ -67,4 +67,26 @@ ul li a:hover {
     border: 0.15rem solid var(--text-color-dark-mode);
     backdrop-filter: blur(0.4rem);
     -webkit-backdrop-filter: blur(0.4rem);
+}
+
+/* Social Links */
+#socialLinks {
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+    padding: 2.4rem 0;
+}
+
+#socialLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem;
+    border-radius: 50%;
+    
+    transition: background  .4s ;
+}
+
+#socialLinks a:hover {
+    background-color: var(--highlight-color-dark-mode);
 }
