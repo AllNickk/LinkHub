@@ -30,6 +30,7 @@ body {
     line-height: 2.4rem;
     margin-top: .8rem;
     display: block;
+    text-decoration: none;
 }
 
 /* Links */
