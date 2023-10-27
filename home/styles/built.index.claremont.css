@@ -1,11 +1,11 @@
 body * {
     font-family: 'Inter', sans-serif;
-    color: var(--text-color-dark-mode);
+    color: var(--text-color);
 }
 
 body {
     /* background: color image repeat position/size */
-    background: var(--bg-color-dark-mode) no-repeat top center/cover;
+    background: var(--bg-color) no-repeat top center/cover;
 }
 
 #container {
@@ -15,6 +15,7 @@ body {
     padding: 0 2.4rem;
 }
 
+/* Profile */
 #profile {
     text-align: center;
     margin: auto;
@@ -34,6 +35,47 @@ body {
     text-decoration: none;
 }
 
+/* Switch color mode */
+#switch {
+    position: relative;
+    width: 6.4rem;
+    margin: auto;
+    margin: 0.4rem auto;
+}
+
+#switch button {
+    width: 3.2rem;
+    height: 3.2rem;
+    color: var(--toggle-handle-color);
+    border: none;
+    border-radius: 50%;
+    background: white var(--icon-color) no-repeat center;
+
+
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Light Mode switch*/
+.light #switch button {
+    right: 0;
+    left: initial;
+}
+
+#switch span {
+    display: block;
+    width: 6.4rem;
+    height: 2.4rem;
+    border: 0.1rem solid var(--stroke-color);
+    border-radius: 1000rem;
+    background: var(--surface-color);
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+}
+
 /* Links */
 ul {
     list-style: none;
@@ -48,8 +90,8 @@ ul li a {
     justify-content: center;
     align-items: center;
     padding: 1.6rem;
-    background: var(--surface-color-dark-mode);
-    border: 0.1rem solid var(--stroke-color-dark-mode);
+    background: var(--surface-color);
+    border: 0.1rem solid var(--stroke-color);
     border-radius: 0.8rem;
     backdrop-filter: blur(0.4rem);
     -webkit-backdrop-filter: blur(0.4rem);
@@ -62,8 +104,8 @@ ul li a {
 }
 
 ul li a:hover {
-    background: var(--surface-color-dark-mode-hover);
-    border: 0.15rem solid var(--text-color-dark-mode);
+    background: var(--surface-color-hover);
+    border: 0.15rem solid var(--text-color);
     backdrop-filter: blur(0.1rem);
     -webkit-backdrop-filter: blur(0.1rem);
     scale: 115%;
@@ -90,8 +132,8 @@ ul li a:hover {
 }
 
 #socialLinks a:hover {
-    background: var(--highlight-color-dark-mode);
-    border: 0.15rem solid var(--text-color-dark-mode);
+    background: var(--highlight-color);
+    border: 0.15rem solid var(--text-color);
     scale: 115%;
 }
 
