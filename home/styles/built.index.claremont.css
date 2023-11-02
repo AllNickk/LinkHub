@@ -1,11 +1,13 @@
 body * {
     font-family: 'Inter', sans-serif;
     color: var(--text-color);
+    user-select: none;
 }
 
 body {
     /* background: color image repeat position/size */
     background: var(--bg-color) no-repeat top center/cover;
+    transition: background .5s;
 }
 
 #container {
@@ -51,12 +53,13 @@ body {
     border-radius: 50%;
     background: white var(--icon-color) no-repeat center;
 
-
     position: absolute;
     z-index: 1;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
+
+    cursor: pointer;
 }
 
 /* Light Mode switch*/
