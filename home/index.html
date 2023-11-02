@@ -15,10 +15,12 @@
             <img src="/home/src/avatar.png" alt="Profile picture">
             <a href="https://github.com/AllNickk" id="customLink">@AllNickk</a>
         </div>
-        <div id="switch" onclick="toggleMode()">
-            <button></button>
-            <span></span>
-        </div>
+        <label id="toggle-switch">
+            <input type="checkbox" onchange="toggleMode()">
+            <div id="toggle-switch-background">
+              <div id="toggle-switch-handle"></div>
+            </div>
+          </label>
         <div id="links">
             <ul>
                 <li>
