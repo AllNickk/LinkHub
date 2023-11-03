@@ -4,8 +4,8 @@ function toggleMode() {
 
     const avatar = document.querySelector('#profile img')
     if (html.classList.contains('light')) {
-        avatar.setAttribute('src', './src/avatar-light.png')
+        avatar.setAttribute('src', "https://allnickk.github.io/LinkHub/src/avatar-light.png")
     } else {
-        avatar.setAttribute('src', './src/avatar.png')
+        avatar.setAttribute('src', "https://allnickk.github.io/LinkHub/src/avatar.png")
     }
 }
