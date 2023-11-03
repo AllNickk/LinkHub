@@ -5,8 +5,8 @@
     --surface-color-hover: #ffffff0d;
     --highlight-color: #ffffff33;
     --toggle-handle-color: #FFFFFF;
-    --bg-color: url(/home/src/bg-mobile.jpg);
-    --icon-color: url(/home/src/MoonStars.svg);
+    --bg-color: url(./src/bg-mobile.jpg);
+    --icon-color: url(./src/MoonStars.svg);
 }
 
 .light {
@@ -16,17 +16,17 @@
     --surface-color-hover: #00000005;
     --highlight-color: #0000001a;
     --toggle-handle-color: #FFFFFF;
-    --bg-color: url(/home/src/bg-mobile-light.jpg);
-    --icon-color: url(/home/src/Sun.svg);
+    --bg-color: url(./src/bg-mobile-light.jpg);
+    --icon-color: url(./src/Sun.svg);
 }
 
 /* medias queries*/
 @media (min-width: 700px) {
     :root {
-        --bg-color: url(/home/src/bg-desktop.jpg);
+        --bg-color: url(./src/bg-desktop.jpg);
     }
 
     .light {
-        --bg-color: url(/home/src/bg-desktop-light.jpg);
+        --bg-color: url(./src/bg-desktop-light.jpg);
     }
 }
