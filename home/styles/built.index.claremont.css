@@ -8,10 +8,12 @@ body {
     /* background: color image repeat position/size */
     background: var(--bg-color) no-repeat top center/cover;
     transition: background .5s;
+    height: 100vh;
 }
 
 #container {
-    width: 36rem;
+    width: 100%;
+    max-width: 588px;
     margin: auto;
     margin-top: 5.6rem;
     padding: 0 2.4rem;

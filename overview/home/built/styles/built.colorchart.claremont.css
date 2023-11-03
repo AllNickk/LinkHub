@@ -19,3 +19,14 @@
     --bg-color: url(/home/src/bg-mobile-light.jpg);
     --icon-color: url(/home/src/Sun.svg);
 }
+
+/* medias queries*/
+@media (min-width: 700px) {
+    :root {
+        --bg-color: url(/home/src/bg-desktop.jpg);
+    }
+
+    .light {
+        --bg-color: url(/home/src/bg-desktop-light.jpg);
+    }
+}
